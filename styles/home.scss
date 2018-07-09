@@ -1,3 +1,18 @@
-h1 {
-  color: tomato;
+ul.button-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    flex: 1;
+    display: block;
+
+    button {
+      width: 90%;
+      min-width: 100px;
+      margin: 0 auto;
+    }
+  }
 }
